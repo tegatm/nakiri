@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас — Nakiri</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="Nakiri" class="logo-img">Nakiri</a>
+      <ul class="nav-menu">
+        <li><a href="index.html" data-i18n="nav.home">Главная</a></li>
+        <li><a href="menu.html" data-i18n="nav.menu">Меню</a></li>
+        <li><a href="delivery.html" data-i18n="nav.delivery">Доставка</a></li>
+        <li><a href="contacts.html" data-i18n="nav.contacts">Контакты</a></li>
+        <li><a href="about.html" class="active" data-i18n="nav.about">О нас</a></li>
+      </ul>
+      <div class="nav-actions">
+        <div class="lang-switch">
+          <button class="lang-btn" data-lang="ru">RU</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="cart-btn" aria-label="Cart"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></button>
+        <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <section class="about-hero">
+    <div class="container">
+      <div class="eyebrow" data-i18n="nav.about">О нас</div>
+      <h1 data-i18n="about.page.title">О нашем кафе</h1>
+      <p data-i18n="about.page.text">Уютное место в сердце города</p>
+    </div>
+  </section>
+
+  <section class="story-section">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-images">
+          <div class="story-img-main">
+            <img src="images/san-sebastian.jpg" alt="Cafe story"
+                 onerror="this.src='https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=700&q=80'">
+          </div>
+          <div class="story-img-second">
+            <img src="images/croissant.jpg" alt="Croissant"
+                 onerror="this.src='https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=500&q=80'">
+          </div>
+        </div>
+        <div class="story-content">
+          <div class="eyebrow" data-i18n="story.eyebrow">Наша история</div>
+          <h2 data-i18n="story.title">Шесть лет тёплых встреч</h2>
+          <p data-i18n="story.text1">Всё началось в 2018 году...</p>
+          <p data-i18n="story.text2">Сегодня Nakiri — это просторное городское кафе...</p>
+          <p data-i18n="story.text3">Наша миссия — превратить обычный день в маленький праздник.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="values-section">
+    <div class="container">
+      <div class="section-title">
+        <div class="eyebrow" data-i18n="values.title">Наши ценности</div>
+        <p data-i18n="values.subtitle">Три принципа, которыми мы руководствуемся</p>
+      </div>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-number">01</div>
+          <h3 data-i18n="val1.title">Качество</h3>
+          <p data-i18n="val1.text">Только лучшие ингредиенты от проверенных поставщиков</p>
+        </div>
+        <div class="value-card">
+          <div class="value-number">02</div>
+          <h3 data-i18n="val2.title">Забота</h3>
+          <p data-i18n="val2.text">Каждый гость для нас важен</p>
+        </div>
+        <div class="value-card">
+          <div class="value-number">03</div>
+          <h3 data-i18n="val3.title">Атмосфера</h3>
+          <p data-i18n="val3.text">Уютный интерьер и приятная музыка</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <div class="container">
+      <div class="section-title">
+        <div class="eyebrow" data-i18n="team.title">Наша команда</div>
+        <p data-i18n="team.subtitle">Люди, которые делают Nakiri особенным</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-photo">
+            <img src="images/team-chef.png" alt="Александр Кудряшев"
+                 onerror="this.src='https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=400&q=80'">
+          </div>
+          <h3>Александр Кудряшев</h3>
+          <div class="role" data-i18n="team.role.chef">Шеф-повар</div>
+        </div>
+        <div class="team-card">
+          <div class="team-photo">
+            <img src="images/team-pastry.png" alt="Аруу Нургелдиева"
+                 onerror="this.src='https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&q=80'">
+          </div>
+          <h3>Аруу Нургелдиева</h3>
+          <div class="role" data-i18n="team.role.baker">Кондитер</div>
+        </div>
+        <div class="team-card">
+          <div class="team-photo">
+            <img src="images/team-manager.png" alt="Акылай Талантбекова"
+                 onerror="this.src='https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80'">
+          </div>
+          <h3>Акылай Талантбекова</h3>
+          <div class="role" data-i18n="team.role.manager">Управляющая</div>
+        </div>
+        <div class="team-card">
+          <div class="team-photo">
+            <img src="images/team-barista.png" alt="Айтегин Капалбаев"
+                 onerror="this.src='https://images.unsplash.com/photo-1542444459-db63c9248671?w=400&q=80'">
+          </div>
+          <h3>Айтегин Капалбаев</h3>
+          <div class="role" data-i18n="team.role.barista">Главный бариста</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="timeline-section">
+    <div class="container">
+      <div class="section-title">
+        <div class="eyebrow" data-i18n="timeline.title" style="color: var(--accent);">Наш путь</div>
+        <h2 data-i18n="timeline.title">Наш путь</h2>
+        <p data-i18n="timeline.subtitle">Ключевые события за шесть лет работы</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Открытие</h3>
+            <p>Первая чашка кофе в маленьком кафе на тихой улице</p>
+          </div>
+          <div class="timeline-year">2018</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2020</div>
+          <div class="timeline-content">
+            <h3>Своя пекарня</h3>
+            <p>Запустили собственное производство выпечки</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Расширение</h3>
+            <p>Переехали в просторное помещение с террасой</p>
+          </div>
+          <div class="timeline-year">2022</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-year">2024</div>
+          <div class="timeline-content">
+            <h3>Доставка</h3>
+            <p>Открыли собственную службу доставки и обновили меню</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <div class="logo"><img src="images/logo.png" alt="Nakiri" class="logo-img">Nakiri</div>
+          <p data-i18n="footer.about">Городское кафе с тёплой атмосферой</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav">Навигация</h4>
+          <ul>
+            <li><a href="index.html" data-i18n="nav.home">Главная</a></li>
+            <li><a href="menu.html" data-i18n="nav.menu">Меню</a></li>
+            <li><a href="delivery.html" data-i18n="nav.delivery">Доставка</a></li>
+            <li><a href="about.html" data-i18n="nav.about">О нас</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.contacts">Контакты</h4>
+          <ul>
+            <li>ул. Кофейная, 12</li>
+            <li>+7 (999) 123-45-67</li>
+            <li>hello@nakiri.cafe</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.follow">Соц. сети</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Telegram</a></li>
+            <li><a href="#">VK</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span data-i18n="footer.rights">© 2024 Nakiri Cafe.</span>
+        <a href="#" data-i18n="footer.policy">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
